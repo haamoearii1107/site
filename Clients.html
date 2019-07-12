@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="About.html">
+    <link rel="stylesheet" href="Projets.html">
+    <link rel="stylesheet" href="css/Clients.css">
+    <link href="https://fonts.googleapis.com/css?family=Galada">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+          
+          background-color:aliceblue;
+          font-family: cursive;
+        }
+        
+        .glow {
+          font-size: 80px;
+          color: #fff;
+          text-align: center;
+          -webkit-animation: glow 1s ease-in-out infinite alternate;
+          -moz-animation: glow 1s ease-in-out infinite alternate;
+          animation: glow 1s ease-in-out infinite alternate;
+        }
+        
+        @-webkit-keyframes glow {
+          from {
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30 black, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+          }
+          
+          to {
+            text-shadow: 0 0 20px #fff, 0 0 30px #11030a, 0 0 40px #260ba0, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+          }
+        }
+    </style>
+
+</head>
+<body>
+
+        <style>
+                body {
+                    font-family: 'Galada';font-size: 22px;
+                }
+         </style>       
+    <body>
+        <h1 class="glow">CLIENTS</h1>
+        <P>Le marché de l'informatique est tres important dans le sens où il est prisé par<br>
+        les plus grands marchés informatiques du monde. Effectivement sur le marché de l'emploi<br>
+    les plus grandes entreprises demandent des experts en la matière pour quelconque problème<br>
+comme par exmple un logo, un site , une base de données et bien encore.</P>
+
+
+
+<!-- Trigger the Modal -->
+ <img id="myImg" src="image/info.png" alt="info" style="width:100%;max-width:300px">
+ <!-- Trigger the Modal -->
+ <img id="myImg" src="image/info1.png" alt="info" style="width:100%;max-width:300px">
+
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+ 
+   <!-- The Close Button -->
+   <span class="close">&times;</span>
+ 
+   <!-- Modal Content (The Image) -->
+   <img class="modal-content" id="img01">
+ 
+   <!-- Modal Caption (Image Text) -->
+   <div id="caption"></div>
+ </div> 
+
+ 
+ 
+ <!-- The Modal -->
+ <div id="myModal" class="modal">
+   <span class="close">&times;</span>
+   <img class="modal-content" id="img01">
+   <div id="caption"></div>
+ </div>
+ 
+ <script>
+ // Get the modal
+ var modal = document.getElementById("myModal");
+ 
+ // Get the image and insert it inside the modal - use its "alt" text as a caption
+ var img = document.getElementById("myImg");
+ var modalImg = document.getElementById("img01");
+ var captionText = document.getElementById("caption");
+ img.onclick = function(){
+   modal.style.display = "block";
+   modalImg.src = this.src;
+   captionText.innerHTML = this.alt;
+ }
+ 
+ // Get the <span> element that closes the modal
+ var span = document.getElementsByClassName("close")[0];
+ 
+ // When the user clicks on <span> (x), close the modal
+ span.onclick = function() { 
+   modal.style.display = "none";
+ }
+ </script>
+    
+    <div class="bg-text">
+        <p>On peut également y retrouver bien d'autres choses surtout dans le monde de travail.<br>
+            Grâce à la technologie, le monde du travail connait une évolution indéniable, notamment au niveau des conditions dans lesquelles les salariés officient de nos jours. Les salariés ont toujours été au centre de l’intérêt d’une entreprise, ce qui semble tout à fait logique étant donné que de ces derniers dépend la pérennité de l’organisation. Sachant que le secteur tertiaire a conquis plus de la grande majorité du monde du travail face à l’industrie, le commerce ou l’agriculture, les prestations de services se situent au grand sommet des activités rémunératrices. Et précisément dans ce domaine, l’univers du télétravail a pris une ampleur des plus considérables. En d’autres termes, le travail à domicile constitue l’une des plus grosses évolutions que le monde du travail ait connues au cours de ces dernières années. La possibilité pour tout prestataire de choisir son lieu de travail, et ce, au niveau mondial à travers l’externalisation de service a révolutionné le monde de l’emploi.
+
+            Il faut savoir que le travail à domicile présente de gros avantages, que ce soit pour le prestataire ou le donneur d’ordre. En effet, les entreprises peuvent ainsi bénéficier d’une main-d’œuvre illimitée de par le monde entier, selon les critères et les compétences requis. Les prestataires, quant à eux, peuvent travailler où ils le désirent, même de chez eux, et ce à des horaires flexibles et des conditions salariales tout aussi avantageuses. Ce procédé a permis une forte baisse du taux de chômage à l’échelle mondiale. Tout le monde peut ainsi accéder à une vie professionnelle conciliant étude et vie privée. On retrouve de nombreuses offres de travail à domicile notamment dans le monde de la rédaction, des traitements de données, mais aussi, toujours grâce à l’avancée technologique, à la télécommunication à domicile.  </p>
+    </div>
+    <div class="pagination">
+            <a href="#">&laquo;</a>
+            <a href="About.html">1</a>
+            <a href="Projets.html">2</a>
+            <a href="Clients.html">3</a>
+            <a href="index.html">ACCUEIL</a>
+           
+            <a href="#">&raquo;</a>
+          </div> 
+ 
+</body>
+</html>

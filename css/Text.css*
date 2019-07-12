@@ -1,0 +1,6 @@
+/*  */
+*{
+    
+    border:5px rgb(14, 11, 11) solid;
+    background-color:rgba(230, 216, 216, 0.979);
+}
